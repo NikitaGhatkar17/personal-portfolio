@@ -1,0 +1,26 @@
+.footer-section {
+  background: linear-gradient(to right, #0f2027, #335868);
+  padding: 10px 0;
+  color: #ccc;
+}
+
+.footer-icons {
+  margin-bottom: 10px; 
+}
+
+.footer-icons a {
+  margin: 0 8px; 
+  color: #ccc;
+  font-size: 1.8rem; 
+  transition: color 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: #4dd0e1;
+}
+
+.footer-text {
+  font-size: 0.90rem;
+  margin: 0;
+  color: #c7d7b2;
+}

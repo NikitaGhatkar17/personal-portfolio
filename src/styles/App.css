@@ -1,0 +1,84 @@
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f5f7fa;
+  color: #1f1f1f;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* h2, h3 {
+  color: #2c5364; 
+  font-weight: 700;
+  font-size: 2rem;
+}
+a {
+  color: #006D77;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #83C5BE;
+} */
+
+/* Navbar Styling */
+/* .navbar {
+  background-color: #343a40;
+} */
+
+.navbar .nav-link {
+  color: white !important;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+
+
+/* Section Spacing */
+section, .container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* Skills Section Styling */
+#skills .card {
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease-in-out;
+}
+
+#skills .card:hover {
+  transform: scale(1.05);
+  border-color: #17b822;
+}
+
+/* Contact Section */
+
+#contact form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Button */
+button,
+.btn {
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+
+
+.background-shape {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+section {
+  scroll-margin-top: 30px; 
+}
+

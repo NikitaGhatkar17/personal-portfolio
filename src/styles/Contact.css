@@ -1,0 +1,41 @@
+#contact {
+  min-height: 100vh;
+}
+.contact-section {
+  background: linear-gradient(to right, #80afc4, #c5dae1,rgb(115, 186, 216));
+  padding: 10px 0;
+  color: #fff;
+
+  
+}
+
+.send-btn {
+  width: 100%;
+  background-color: #061b4d;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  transition: 0.3s ease-in-out;
+}
+
+.send-btn:hover {
+  background-color: #094944;
+}
+.contact-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #07285a;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.contact-section h2::after {
+  content: '';
+  width: 60px;
+  height: 4px;
+  background-color: #132238;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}

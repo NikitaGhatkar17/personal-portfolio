@@ -1,0 +1,60 @@
+/* src/components/Skills.css */
+
+.skills-section {
+  background: linear-gradient(to right, #80afc4, #c5dae1,rgb(115, 186, 216));
+}
+
+.skill-card {
+  border: none;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: white;
+  padding: 10px;
+}
+
+.skill-card:hover {
+  transform: scale(1.1);
+}
+
+.skill-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+.skill-card .card-body {
+  padding: 0;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.card-text {
+  font-size: 14px;
+  font-weight: 500;
+
+}
+.skills-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #07285a;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.skills-section h2::after {
+  content: '';
+  width: 40px;
+  height: 4px;
+  background-color: #132238;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
